@@ -1,0 +1,36 @@
+# Intruções do programa
+nome: "Rafael"
+Idade: 26 # Esta é a idade do usuário
+
+# Este objeto descreve nosso projeto
+objeto:
+  versao: 2
+  arquivo: "test.txt"
+
+versao: 2
+versao_completa: 3.14
+
+string_sem_aspas: Este e um texto valido para o YAML
+string_com_aspas: "Este tambem e um texto valido para o YAML"
+
+nulo: ~
+nulo_dois: null
+
+boolean_true: true
+boolean_on: on
+boolean_false: false
+boolean_off: off
+
+lista: [1, 2, 3, 4, 5]
+lista_dois:
+  - "teste"
+  - 10
+  - "outro teste"
+  - off
+
+obj: {a: 1, b: 2, c: 3}
+obj_dois:
+  a: 1
+  b: 2
+  obj_tres:
+    x: 2
